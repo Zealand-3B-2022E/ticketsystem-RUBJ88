@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLbraryTests", "CarLbrary
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCLibrary", "MSLibrary\MCLibrary.csproj", "{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCLibraryTests2", "MCLibraryTests2\MCLibraryTests2.csproj", "{DE596AF9-A2CE-4560-8673-8720406E4B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCLibraryTests2", "MCLibraryTests2\MCLibraryTests2.csproj", "{DE596AF9-A2CE-4560-8673-8720406E4B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "TicketSystemDLL\StoreBaeltTicketLibrary.csproj", "{F47F235C-8784-41AD-9D7B-F7564011010D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
