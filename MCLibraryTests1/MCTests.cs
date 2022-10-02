@@ -14,8 +14,8 @@ namespace MCLibrary.Tests
     {
 
         /// <summary>
-        /// Testing static method Price with equal 125 -> in this case we don´t need to imp arrange, because we used static method in MC class,
-        /// In other words we don´t need to create new object
+        /// Testing static method Price equal 125 -> in this case we don´t need to imp arrange, because we used static method in MC class,
+        /// In other words we don´t need to create new object in arrange
         /// </summary>
         /// <param name="value">accepted value is 125</param>
         [DataTestMethod]
@@ -34,10 +34,10 @@ namespace MCLibrary.Tests
         }
 
         /// <summary>
-        /// Testing static method vehicle -> the same way we don´t need to imp arrange, because we used static method in MC class,
+        /// Testing static method vehicle -> In the same way we don´t need to imp arrange, because we used static method in MC class,
         /// In other words we don´t need to create new object
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="value">accepted value is MC</param>
         [DataTestMethod]
         [DataRow("MC")]
         [TestMethod]
@@ -46,7 +46,7 @@ namespace MCLibrary.Tests
             //Arrange -> empty 
 
             //Act
-            string mc = MC.Vehicle();
+            string mc = MC.Price();
 
             // Assert
             Assert.AreEqual(value, mc);
