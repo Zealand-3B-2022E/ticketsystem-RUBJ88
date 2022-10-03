@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarLbrary</name>
+    </assembly>
+    <members>
+        <member name="T:CarLbrary.Car">
+            <summary>
+            The class Car is inheritance from Ticket class, and the class contains filed and constructor of licensplate, base constructor of discount.
+             Furthermore the class Ticket contains override methods of price plate, vehicle, vehicle type and MTicket 
+            </summary>
+        </member>
+        <member name="F:CarLbrary.Car._licensplate">
+            <summary>
+            The files saving the values og liceseplate in the class Car
+            </summary>
+        </member>
+        <member name="M:CarLbrary.Car.#ctor">
+            <summary>
+            The constructor is them there create an object, and base is used to access members of the base class from within a derived class. 
+            </summary>
+        </member>
+        <member name="M:CarLbrary.Car.#ctor(System.Int32)">
+            <summary>
+            This base constructor create object with parameters
+            </summary>
+            <param name="discount">The parameter is discount</param>
+        </member>
+        <member name="M:CarLbrary.Car.Price">
+            <summary>
+            Create price method by using override double in the class car
+            </summary>
+            <returns>return 240</returns>
+        </member>
+        <member name="M:CarLbrary.Car.Plate">
+            <summary>
+            Create plate method by using override string in the class car
+            </summary>
+            <returns>returning 1234567</returns>
+        </member>
+        <member name="M:CarLbrary.Car.Vehicle">
+            <summary>
+            Create Vehicle method by using override string in the class car
+            </summary>
+            <returns>MC</returns>
+        </member>
+        <member name="M:CarLbrary.Car.VehicleType">
+            <summary>
+            Create vehicleType method by use of string in the Car class
+            </summary>
+            <returns>"car"</returns>
+        </member>
+        <member name="M:CarLbrary.Car.MTicket">
+            <summary>
+            Create MTicket method by using override int in the Car class
+            </summary>
+            <returns>Return 5</returns>
+        </member>
+        <member name="T:TicketClass1.Ticket">
+            <summary>
+             The class Ticket is abstract, which means the class only have methods without body.
+            In other words the abstract class is not really finished.
+            The class Ticket inheritance to class car and class MC
+            The class Ticked, filed, protected properties, protected constructors, abstracted methods and override ToString method.
+            All contains in the class Ticked is inheritance to Car and MC classes. 
+            </summary>
+        </member>
+        <member name="F:TicketClass1.Ticket._licensplate">
+            <summary>
+            The files saving the values og licensPlate, date, discount and mTicket in the system
+            </summary>
+        </member>
+        <member name="P:TicketClass1.Ticket.Discount">
+            <summary>
+            The property is create discount by use get and set in the system 
+            </summary>
+        </member>
+        <member name="M:TicketClass1.Ticket.#ctor(System.Int32)">
+            <summary>
+            Property is creating a test research og discount
+            </summary>
+            <param name="discount"> is set to 5</param>
+            <exception cref="T:System.ArgumentException">Must be 5%</exception>
+        </member>
+        <member name="M:TicketClass1.Ticket.#ctor(System.Int32,System.Int32)">
+            <summary>
+            The constructor create objects discount and ticket in class ticket
+            </summary>
+            <param name="discount"></param>
+            <param name="ticket"></param>
+        </member>
+    </members>
+</doc>

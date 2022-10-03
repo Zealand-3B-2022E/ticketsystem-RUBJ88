@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystemClassLibrary", "TicketSystemClassLibrary\TicketSystemClassLibrary.csproj", "{183D69DE-5904-46BD-9168-828D1DDE550C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLbrary", "CarLbrary\CarLbrary.csproj", "{4C0CAA0D-5FBC-431F-B654-D4F061CBFF64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLbraryTests", "CarLbraryTests\CarLbraryTests.csproj", "{F2A25FCE-39B5-4756-99EB-273A165256CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCLibrary", "MSLibrary\MCLibrary.csproj", "{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCLibraryTests2", "MCLibraryTests2\MCLibraryTests2.csproj", "{DE596AF9-A2CE-4560-8673-8720406E4B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "TicketSystemDLL\StoreBaeltTicketLibrary.csproj", "{F47F235C-8784-41AD-9D7B-F7564011010D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{183D69DE-5904-46BD-9168-828D1DDE550C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{183D69DE-5904-46BD-9168-828D1DDE550C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{183D69DE-5904-46BD-9168-828D1DDE550C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{183D69DE-5904-46BD-9168-828D1DDE550C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0CAA0D-5FBC-431F-B654-D4F061CBFF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0CAA0D-5FBC-431F-B654-D4F061CBFF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0CAA0D-5FBC-431F-B654-D4F061CBFF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0CAA0D-5FBC-431F-B654-D4F061CBFF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A25FCE-39B5-4756-99EB-273A165256CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A25FCE-39B5-4756-99EB-273A165256CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A25FCE-39B5-4756-99EB-273A165256CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A25FCE-39B5-4756-99EB-273A165256CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBEB6D7-D448-417D-9DA4-4BDFEA331DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE596AF9-A2CE-4560-8673-8720406E4B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47F235C-8784-41AD-9D7B-F7564011010D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

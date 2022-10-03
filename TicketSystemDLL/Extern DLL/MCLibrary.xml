@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MCLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MCLibrary.MC">
+            <summary>
+            The class MC is inheritance from Ticket class, and the class contains base constructors og licensplate,date and discount.
+            The class MC contains also override methods of price, plate, vehicle, vehicle type and MTicket
+             Furthermore the class Ticket contains override methods of price plate, vehicle, vehicle type and MTicket 
+            </summary>
+        </member>
+        <member name="M:MCLibrary.MC.#ctor">
+            <summary>
+            The constructor is them there create an object, and base is used to access members of the base class from within a derived class. 
+            </summary>
+        </member>
+        <member name="M:MCLibrary.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            This base constructor create object with parameters of licensplate and date
+            </summary>
+            <param name="licensesplate">The parameter of licenseplate is a string</param>
+            <param name="date">The parameter of date is a DateTime</param>
+        </member>
+        <member name="M:MCLibrary.MC.#ctor(System.Int32)">
+            <summary>
+            This base constructor create object with parameter of discount 
+            </summary>
+            <param name="discount">parameters of discount is int</param>
+        </member>
+        <member name="M:MCLibrary.MC.Price">
+            <summary>
+            Creating override method of price, by using double. 
+            </summary>
+            <returns>Return 125</returns>
+        </member>
+        <member name="M:MCLibrary.MC.Plate">
+            <summary>
+            Creating override method by using string of
+            </summary>
+            <returns>return 7 char</returns>
+        </member>
+        <member name="M:MCLibrary.MC.Vehicle">
+            <summary>
+            Creating override method of vehicle, by using string.
+            </summary>
+            <returns>Return MC</returns>
+        </member>
+        <member name="M:MCLibrary.MC.VehicleType">
+            <summary>
+            Creating override method of vehicleType, by using string.
+            </summary>
+            <returns>Return Car</returns>
+        </member>
+        <member name="M:MCLibrary.MC.MTicket">
+            <summary>
+            Creating override method of MTicket, by using int.
+            </summary>
+            <returns>Return Return 0</returns>
+        </member>
+    </members>
+</doc>
