@@ -17,11 +17,19 @@ namespace MCLibrary
 
     public class MC : Ticket
     {
+
+        private string _licensplate;
+
+        private DateTime _date;
+
+
         /// <summary>
         /// The constructor is them there create an object, and base is used to access members of the base class from within a derived class. 
         /// </summary>
         public MC() : base()
         {
+            _licensplate = Licensplate;
+            _date = Date;
 
         }
         /// <summary>
@@ -41,6 +49,18 @@ namespace MCLibrary
         public MC(int discount) : base(discount)
         {
 
+        }
+
+        public string Licensplate
+        {
+            get => _licensplate;
+            set => _licensplate = value;
+        }
+
+        public DateTime Date
+        {
+            get => _date;
+            set => _date = value;
         }
 
         /// <summary>
@@ -78,15 +98,17 @@ namespace MCLibrary
         {
             return "Car";
         }
-
         /// <summary>
-        /// Creating override method of MTicket, by using int.
+        /// Creating override method of Brobizz, by using int.
         /// </summary>
         /// <returns>Return Return 0</returns>
-        public override int MTicket()
+        public override int Brobizz()
         {
             return 0;
         }
+
+
+
 
     }
 

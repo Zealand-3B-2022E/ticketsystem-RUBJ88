@@ -56,12 +56,6 @@
             </summary>
             <returns>Return 5</returns>
         </member>
-        <member name="P:CarLbrary.Car.Licenseplate">
-            <summary>
-            Create MTicket method by using override int in the Car class
-            </summary>
-            <returns>Return 5</returns>
-        </member>
         <member name="T:TicketClass1.Ticket">
             <summary>
              The class Ticket is abstract, which means the class only have methods without body.
@@ -94,6 +88,64 @@
             </summary>
             <param name="discount"></param>
             <param name="ticket"></param>
+        </member>
+        <member name="P:TicketClass1.Ticket.Licensplate">
+            <summary>
+            Property is creating protected licensplate by get and set. 
+            </summary>
+        </member>
+        <member name="P:TicketClass1.Ticket.Date">
+            <summary>
+            Property is creating protected Date by get and set. 
+            </summary>
+        </member>
+        <member name="M:TicketClass1.Ticket.Price">
+            <summary>
+            Creating price method by using virtual double
+            </summary>
+            <returns>Return 5 - Discount</returns>
+        </member>
+        <member name="M:TicketClass1.Ticket.Plate">
+            <summary>
+            Creating Plate method by using abstract string
+            </summary>
+            <returns>Empty</returns>
+        </member>
+        <member name="M:TicketClass1.Ticket.Vehicle">
+            <summary>
+            Creating vehicle method by using abstract string 
+            </summary>
+            <returns>Empty</returns>
+        </member>
+        <member name="M:TicketClass1.Ticket.VehicleType">
+            <summary>
+            Creating VehicleType by using abstract string
+            </summary>
+            <returns>Empty</returns>
+        </member>
+        <member name="M:TicketClass1.Ticket.Brobizz">
+            <summary>
+            Creating Brobizz method by using abstract int
+            </summary>
+            <returns>Empty</returns>
+        </member>
+        <member name="M:TicketClass1.Ticket.#ctor">
+            <summary>
+            The constructor create objects - this constructor is protected and have no parameters 
+            </summary>
+        </member>
+        <member name="M:TicketClass1.Ticket.#ctor(System.String,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="licenseplate"></param>
+            <param name="date"></param>
+        </member>
+        <member name="M:TicketClass1.Ticket.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
         </member>
     </members>
 </doc>

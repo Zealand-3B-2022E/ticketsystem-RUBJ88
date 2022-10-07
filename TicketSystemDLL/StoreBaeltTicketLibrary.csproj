@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarLbrary\CarLbrary.csproj" />
+    <ProjectReference Include="..\MSLibrary\MCLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="CarLbrary">
       <HintPath>Extern DLL\CarLbrary.dll</HintPath>
     </Reference>

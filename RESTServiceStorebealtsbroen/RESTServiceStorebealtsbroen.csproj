@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreBeltBroen\StoreBeltBroen.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CarLbrary">
+      <HintPath>..\MSLibrary\bin\Debug\net6.0\CarLbrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MCLibrary">
+      <HintPath>..\MSLibrary\bin\Debug\net6.0\MCLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

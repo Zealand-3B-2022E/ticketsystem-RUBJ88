@@ -18,12 +18,15 @@ namespace CarLbrary
         /// </summary>
         private string _licensplate;
 
+        private DateTime _date;
+
         /// <summary>
         /// The constructor is them there create an object, and base is used to access members of the base class from within a derived class. 
         /// </summary>
         public Car() : base()
         {
             _licensplate = Licenseplate;
+            _date = Date;
         }
 
         /// <summary>
@@ -71,11 +74,12 @@ namespace CarLbrary
             return "Car";
         }
 
+
         /// <summary>
-        /// Create MTicket method by using override int in the Car class
+        /// Create Brobizz method by using override int in the Car class
         /// </summary>
         /// <returns>Return 5</returns>
-        public override int MTicket()
+        public override int Brobizz()
         {
             return 0;
         }
@@ -83,37 +87,16 @@ namespace CarLbrary
         public string Licenseplate
         {
             get => _licensplate;
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new ArgumentNullException("License plate must not be longer than 7 characters");
+            set => _licensplate = value;
 
-                }
 
-                if (value.Length < 7)
-                {
-                    throw new ArgumentException("License plate must not be longer than 7 characters");
-                }
-
-                _licensplate = value;
-            }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        public DateTime Date
+        {
+            get => _date;
+            set => _date = value;
+        }
 
 
         public int ITicket()

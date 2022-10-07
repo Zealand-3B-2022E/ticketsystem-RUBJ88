@@ -21,14 +21,14 @@ namespace TicketClass1
         /// The files saving the values og licensPlate, date, discount and mTicket in the system
         /// </summary>
         private string _licensplate;
-        private DateTime _Date;
+        private double _Date;
         private int _discount;
-        private int _mTicket;
+        
 
         /// <summary>
         /// The property is create discount by use get and set in the system 
         /// </summary>
-        protected int Discount { get; private set; }
+        public int Discount { get; set; }
 
 
         /// <summary>
@@ -53,33 +53,83 @@ namespace TicketClass1
         protected Ticket(int discount, int ticket)
         {
             _discount = discount;
-            _mTicket = MTicket();
+            
         }
 
+        /// <summary>
+        /// Property is creating protected licensplate by get and set. 
+        /// </summary>
+
+        public string Licensplate { get; private set; }
+
+
+        /// <summary>
+        /// Property is creating protected Date by get and set. 
+        /// </summary>
+        protected DateTime Date { get; private set; }
+
+
+        /// <summary>
+        /// Creating price method by using virtual double
+        /// </summary>
+        /// <returns>Return 5 - Discount</returns>
         public virtual double Price()
         {
             return 5 - Discount;
         }
 
+
+        /// <summary>
+        /// Creating Plate method by using abstract string
+        /// </summary>
+        /// <returns>Empty</returns>
         public abstract string Plate();
 
+        /// <summary>
+        /// Creating vehicle method by using abstract string 
+        /// </summary>
+        /// <returns>Empty</returns>
         public abstract string Vehicle();
+
+        /// <summary>
+        /// Creating VehicleType by using abstract string
+        /// </summary>
+        /// <returns>Empty</returns>
         public abstract string VehicleType();
 
-        public abstract int MTicket();
 
+        /// <summary>
+        /// Creating Brobizz method by using abstract int
+        /// </summary>
+        /// <returns>Empty</returns>
+        public abstract int Brobizz();
+
+
+        /// <summary>
+        /// The constructor create objects - this constructor is protected and have no parameters 
+        /// </summary>
         protected Ticket()
         {
 
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="licenseplate"></param>
+        /// <param name="date"></param>
         protected Ticket(string licenseplate, DateTime date)
         {
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
-            return $"Item: \t\t{this.Vehicle()} \nVehicle: \t{this.VehicleType()} \nVehicle: \t\t{this.Price()}\nPrice: \t\t,- \nMTicket: \t\t{this.MTicket()}ml";
+            return $"Item: \t\t{this.Vehicle()} \nVehicle: \t{this.VehicleType()} \nVehicle: \t\t{this.Price()}\nPrice: \t\t,- \nBrobizz: \t\t{this.Brobizz()}ml";
 
         }
 
